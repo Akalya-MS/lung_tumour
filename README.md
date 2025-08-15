@@ -4,7 +4,7 @@ The goal of this project is to detect and localize lung tumour regions in CT sca
 
 ## Dataset and Preprocessing
 
-* CT scan images collected from publicly available medical imaging datasets,each image having a corresponding mask that highlights the lung tumour regions.
+* CT scan images collected from publicly available medical imaging datasets, each image having a corresponding mask that highlights the lung tumour regions.
 * Resizing - Resizes both images and masks to 256×256 pixels for consistent input size.
 * Images normalized to ensure pixel values are on a consistent scale.
 * Data augmentation applied to increase robustness, including:
